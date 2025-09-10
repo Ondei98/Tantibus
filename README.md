@@ -23,7 +23,8 @@ Login: On the first launch, you'll be prompted to log in. Create a new user or l
 
 Start the Journey: Begin with Level 1 and use your creativity and observation skills to solve the puzzles. Remember to explore your surroundings and use your phone in unconventional ways!
 
-Important Notes & Known Issues
+!!! Important Notes & Known Issues !!!
+
 Due to the age of the application (2021), some parts of the code use deprecated instructions (such as compass and accelerometer integration). While the game is fully functional, this may affect future compatibility with newer Android versions.
 
 Google Maps API Key (Level 5) 🌍
@@ -31,7 +32,6 @@ Level 5 requires a Google Maps API key to function correctly. This key is not in
 Create a Google Maps API key via the Google Cloud Console.
 Follow the instructions in the README-API.md file (or a similar document) to add the key to the app's configuration files before building.
 This step is essential to ensure that the map feature in Level 5 works.
-
 In the manifest is present a FAKE API key so it won't work!
 
 Credits
