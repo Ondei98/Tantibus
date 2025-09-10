@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".levels.Level2_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- TITLE -->
+        <TextView
+            style="@style/main_textView_style"
+            android:layout_marginTop="@dimen/level_margin"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv2" />
+
+        <!-- BACK BUTTON -->
+        <Button
+            android:id="@+id/back_button"
+            style="@style/back_button_style" />
+
+        <!-- ENIGMA -->
+        <TextView
+            style="@style/main_textView_style"
+            android:layout_above="@+id/level2_start"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv2_text1" />
+        <TextView
+            android:id="@+id/level2_start"
+            style="@style/main_textView_style"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv2_text2" />
+
+        <!-- BUTTON FOR THE WIN -->
+        <Button
+            android:id="@+id/button_compass"
+            style="@style/main_button_style"
+            android:text="@string/lv2_start" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

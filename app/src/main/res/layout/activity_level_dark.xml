@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".levels.Level_Dark_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- TITLE -->
+        <TextView
+            android:id="@+id/lvl_dark_title"
+            style="@style/dark_textView_style"
+            android:layout_marginTop="@dimen/level_margin"
+            android:text="@string/lv_dark" />
+
+        <!-- BACK BUTTON -->
+        <Button
+            android:id="@+id/back_button"
+            style="@style/back_button_style" />
+
+        <!-- ENIGMA -->
+        <TextView
+            android:id="@+id/level_dark_start1"
+            style="@style/dark_textView_style"
+            android:layout_below="@+id/lvl_dark_title"
+            android:layout_marginTop="20dp"
+            android:text="@string/lv_dark_text1" />
+        <TextView
+            android:id="@+id/level_dark_start2"
+            style="@style/dark_textView_style"
+            android:layout_below="@+id/level_dark_start1"
+            android:layout_marginTop="20dp"
+            android:text="@string/lv_dark_text2" />
+
+        <!-- MOON -->
+        <ImageView
+            android:id="@+id/moon_image"
+            android:layout_width="@dimen/moon_icon"
+            android:layout_height="@dimen/moon_icon"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/moon1" />
+
+        <!-- BUTTON FOR THE WIN -->
+        <Button
+            android:id="@+id/button_final"
+            style="@style/main_button_style"
+            android:text="@string/lv_dark_start" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

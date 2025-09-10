@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".levels.Level8_Activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- TITLE -->
+        <TextView
+            style="@style/main_textView_style"
+            android:layout_marginTop="@dimen/level_margin"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv8" />
+
+        <!-- BACK BUTTON -->
+        <Button
+            android:id="@+id/back_button"
+            style="@style/back_button_style" />
+
+        <!-- ENIGMA -->
+        <TextView
+            style="@style/main_textView_style"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/level_margin"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv8_text" />
+
+    </RelativeLayout>
+
+    <!-- GRID -->
+    <RelativeLayout
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <!-- 1ST ROW -->
+        <Button
+            android:id="@+id/puzzleButton1"
+            style="@style/puzzle_button_style"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:tag="00"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/puzzleButton2"
+            style="@style/puzzle_button_style"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/puzzleButton1"
+            android:tag="01"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/puzzleButton3"
+            style="@style/puzzle_button_style"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/puzzleButton2"
+            android:tag="02"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/puzzleButton4"
+            style="@style/puzzle_button_style"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/puzzleButton3"
+            android:tag="03"
+            android:text="4" />
+
+        <!-- 2ND ROW -->
+        <Button
+            android:id="@+id/puzzleButton5"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton1"
+            android:layout_alignParentStart="true"
+            android:tag="10"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/puzzleButton6"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton1"
+            android:layout_toEndOf="@id/puzzleButton5"
+            android:tag="11"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/puzzleButton7"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton1"
+            android:layout_toEndOf="@id/puzzleButton6"
+            android:tag="12"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/puzzleButton8"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton1"
+            android:layout_toEndOf="@id/puzzleButton7"
+            android:tag="13"
+            android:text="8" />
+
+        <!-- 3RD ROW -->
+        <Button
+            android:id="@+id/puzzleButton9"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton5"
+            android:layout_alignParentStart="true"
+            android:tag="20"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/puzzleButton10"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton5"
+            android:layout_toEndOf="@id/puzzleButton9"
+            android:tag="21"
+            android:text="10" />
+
+        <Button
+            android:id="@+id/puzzleButton11"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton5"
+            android:layout_toEndOf="@id/puzzleButton10"
+            android:tag="22"
+            android:text="11" />
+
+        <Button
+            android:id="@+id/puzzleButton12"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton5"
+            android:layout_toEndOf="@id/puzzleButton11"
+            android:tag="23"
+            android:text="12" />
+
+        <!-- 4TH ROW -->
+        <Button
+            android:id="@+id/puzzleButton13"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton9"
+            android:layout_alignParentStart="true"
+            android:tag="30"
+            android:text="13" />
+
+        <Button
+            android:id="@+id/puzzleButton14"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton9"
+            android:layout_toEndOf="@id/puzzleButton13"
+            android:tag="31"
+            android:text="14" />
+
+        <Button
+            android:id="@+id/puzzleButton15"
+            style="@style/puzzle_button_style"
+            android:layout_below="@+id/puzzleButton9"
+            android:layout_toEndOf="@id/puzzleButton14"
+            android:tag="32"
+            android:text="15" />
+
+        <Button
+            android:id="@+id/puzzleButtonEmpty"
+            style="@style/empty_button_style"
+            android:layout_below="@+id/puzzleButton9"
+            android:layout_toEndOf="@id/puzzleButton15"
+            android:tag="33"
+            android:text=""/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".levels.Level9_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- TITLE -->
+        <TextView
+            android:id="@+id/lvl9_title"
+            android:layout_marginTop="@dimen/level_margin"
+            style="@style/main_textView_style"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv9" />
+
+        <!-- BACK BUTTON -->
+        <Button
+            android:id="@+id/back_button"
+            style="@style/back_button_style" />
+
+        <!-- ENIGMA -->
+        <TextView
+            android:id="@+id/level1_start"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/lvl9_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv9_text" />
+
+        <!-- GLASS -->
+        <ImageView
+            android:id="@+id/glass_image"
+            android:layout_width="@dimen/glass_icon"
+            android:layout_height="@dimen/glass_icon"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/empty_glass" />
+
+        <!-- ENIGMA PASSWORD -->
+        <EditText
+            android:id="@+id/Reversed_user_text"
+            style="@style/main_EditText_style"
+            android:layout_above="@+id/button_glass"
+            android:layout_marginBottom="20dp" />
+
+        <!-- BUTTON FOR THE WIN -->
+        <Button
+            android:id="@+id/button_glass"
+            style="@style/main_button_style"
+            android:text="@string/lv9_start" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

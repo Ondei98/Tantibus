@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".levels.Level3_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- TITLE -->
+        <TextView
+            style="@style/main_textView_style"
+            android:layout_marginTop="@dimen/level_margin"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv3" />
+
+        <!-- BACK BUTTON -->
+        <Button
+            android:id="@+id/back_button"
+            style="@style/back_button_style" />
+
+        <!-- ENIGMA -->
+        <TextView
+            android:id="@+id/level3_start"
+            style="@style/main_textView_style"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv3_text" />
+
+        <!-- ENIGMA PASSWORD -->
+        <EditText
+            android:id="@+id/moon_text"
+            style="@style/main_EditText_style"
+            android:layout_above="@+id/button_moon"
+            android:layout_marginBottom="50dp" />
+
+        <!-- BUTTON FOR THE WIN -->
+        <Button
+            android:id="@+id/button_moon"
+            style="@style/main_button_style"
+            android:text="@string/lv3_start" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

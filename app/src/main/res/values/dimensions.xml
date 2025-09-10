@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- IMAGES -->
+    <dimen name="splash_icon">230dp</dimen>
+    <dimen name="glass_icon">200dp</dimen>
+    <dimen name="dice_icon">200dp</dimen>
+    <dimen name="crown_icon">50dp</dimen>
+    <dimen name="moon_icon">200dp</dimen>
+
+    <!-- BUTTONS -->
+    <dimen name="button_lvl_margin">5dp</dimen>
+    <dimen name="button_bottom_margin">20dp</dimen>
+    <dimen name="button_hor_margin">20dp</dimen>
+    <dimen name="padding_measure">15dp</dimen>
+    <dimen name="button_corners">15dp</dimen>
+    <dimen name="button_stroke">3dp</dimen>
+    <dimen name="button_puzzle">70dp</dimen>
+
+    <!-- BACK BUTTON -->
+    <dimen name="arrow_icon">35dp</dimen>
+    <dimen name="arrow_margin">30dp</dimen>
+
+    <!-- OTHERS -->
+    <dimen name="box_level">300dp</dimen>
+    <dimen name="level_margin">50dp</dimen>
+
+</resources>

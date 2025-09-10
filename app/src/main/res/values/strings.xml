@@ -1,0 +1,97 @@
+<resources>
+    <!-- APP TITLE -->
+    <string name="app_name">Tantibus</string>
+
+    <!-- MAIN MENU -->
+    <string name="newgame_button_label">New Game</string>
+    <string name="loadgame_button_label">Load Game</string>
+    <string name="credits_button_label">Credits</string>
+
+    <!-- LEVELS MENU -->
+    <string name="First_chapter">Chapter 1</string>
+    <string name="welcome_back">Your journey goes on…</string>
+
+    <!-- TOAST TEXT LEVELS -->
+    <string name="back_navigation">Think about it…</string>
+    <string name="Level_Passed">Level passed!</string>
+    <string name="Not_passed">Are you sure?</string>
+    <string name="Final_Level_Passed">Well done!</string>
+    <string name="Secret_Level_Passed">Your journey is over!</string>
+    <string name="Secret_Level_Fail">Don\'t wait, make things happen</string>
+
+    <!-- SIGNUP -->
+    <string name="SignupTitle">Prepare for your new journey</string>
+    <string name="User_Signup">Tell me your name</string>
+    <string name="Password_Signup">Choose your own key</string>
+    <string name="Check_Signup">Start walking</string>
+    <string name="Not_ready">You need a name and a key</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Failed">Something went wrong…</string>
+    <string name="ExistingUser">This character is already travelling!</string>
+
+    <!-- LOGIN -->
+    <string name="LoginTitle">Here we go again</string>
+    <string name="User_Login">Remember me your name</string>
+    <string name="Password_Login">Open the gate with your key</string>
+    <string name="Check_Login">Start walking again</string>
+    <string name="Continue">Welcome back</string>
+    <string name="WrongKey">This key opens nothing!</string>
+
+    <!-- CREDITS -->
+    <string name="credits_version">Version 1.01</string>
+    <string name="credits_author">2021 - Ondei Emanuele</string>
+    <string name="credits_rights">All rights reserved.</string>
+    <string name="end_credits">So keep Walking On…</string>
+    <!-- THANKS -->
+    <string name="thanks1">Thanks for being with me during this journey.</string>
+    <string name="thanks2">Special thanks to all my friends who supported me and this project.</string>
+    <string name="thanks3">See you soon!</string>
+
+    <!-- LEVELS TITLES -->
+    <string name="lv1">Lvl 1</string>
+    <string name="lv2">Lvl 2</string>
+    <string name="lv3">Lvl 3</string>
+    <string name="lv4">Lvl 4</string>
+    <string name="lv5">Lvl 5</string>
+    <string name="lv6">Lvl 6</string>
+    <string name="lv7">Lvl 7</string>
+    <string name="lv8">Lvl 8</string>
+    <string name="lv9">Lvl 9</string>
+
+    <!-- LV1 TEXT -->
+    <string name="lv1_text">I was born in silence and darkness…</string>
+    <string name="lv1_start">Awake</string>
+    <!-- LV2 TEXT -->
+    <string name="lv2_text1">I grew up in the North…</string>
+    <string name="lv2_text2">Where cold mountains overhung the grey woods…</string>
+    <string name="lv2_start">Rise</string>
+    <!-- LV3 TEXT -->
+    <string name="lv3_text">Look at the sky, it\'s majestic!</string>
+    <string name="lv3_password">red moon</string>
+    <string name="lv3_start">Behold</string>
+    <!-- LV4 TEXT -->
+    <string name="lv4_text1">Who are you challenging?</string>
+    <string name="lv4_text2">And why?</string>
+    <string name="lv4_wrong">That\'s unbalanced, isn\'t it?</string>
+    <!-- LV5 TEXT -->
+    <string name="lv5_text">And then I moved at the Origin and End of everything…</string>
+    <string name="lv5_start">Travel</string>
+    <!-- LV6 TEXT -->
+    <string name="lv6_text">"E quindi uscimmo a riveder le stelle…"</string>
+    <string name="lv6_start">Pick</string>
+    <!-- LV7 TEXT -->
+    <string name="lv7_text">Make a contact between chosen ones…</string>
+    <string name="lv7_start">Shuffle</string>
+    <!-- LV8 TEXT -->
+    <string name="lv8_text">Your time is running out, but the end is near…</string>
+    <!-- LV9 TEXT -->
+    <string name="lv9_text">Your journey goes on…</string>
+    <string name="lv9_start">Live</string>
+    <string name="lv9_wrong">This is not you!</string>
+    <!-- LV10 TEXT -->
+    <string name="lv_dark">The Dark Side…</string>
+    <string name="lv_dark_text1">In Darkness it\'s started…</string>
+    <string name="lv_dark_text2">In Darkness will end…</string>
+    <string name="lv_dark_start">Rest</string>
+
+</resources>

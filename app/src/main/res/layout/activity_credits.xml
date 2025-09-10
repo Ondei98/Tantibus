@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- some info -->
+        <TextView
+            android:id="@+id/credits_name"
+            style="@style/main_textView_style"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/version"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/credits_name"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/credits_version" />
+
+        <TextView
+            android:id="@+id/author"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/version"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/credits_author" />
+
+        <TextView
+            android:id="@+id/center_credits"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/author"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/credits_rights" />
+
+        <!-- Thanks button -->
+        <Button
+            android:id="@+id/credits_image_button"
+            android:layout_width="@dimen/splash_icon"
+            android:layout_height="@dimen/splash_icon"
+            android:layout_above="@+id/username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:background="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/username"
+            style="@style/main_textView_style"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/calligraffitti"
+            android:text="@string/end_credits" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

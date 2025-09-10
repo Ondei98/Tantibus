@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- SIGNUP TITLE -->
+        <TextView
+            android:id="@+id/SignupTitle"
+            style="@style/main_textView_style"
+            android:layout_marginTop="@dimen/level_margin"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/SignupTitle" />
+
+        <!-- SIGNUP USER -->
+        <TextView
+            android:id="@+id/User_Signup"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/SignupTitle"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/User_Signup" />
+        <EditText
+            android:id="@+id/User_Signup_text"
+            style="@style/main_EditText_style"
+            android:layout_below="@+id/User_Signup"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName" />
+
+        <!-- SIGNUP PASSWORD -->
+        <TextView
+            android:id="@+id/Password_Signup"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/User_Signup_text"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/Password_Signup" />
+        <EditText
+            android:id="@+id/Password_Signup_text"
+            style="@style/main_EditText_style"
+            android:layout_below="@+id/Password_Signup"
+            android:layout_marginTop="20dp"
+            android:inputType="textVisiblePassword" />
+
+        <!-- SIGNUP CHECK -->
+        <Button
+            android:id="@+id/signup_button"
+            style="@style/main_button_style"
+            android:text="@string/Check_Signup" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

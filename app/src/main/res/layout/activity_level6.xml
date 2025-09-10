@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".levels.Level6_Activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- TITLE -->
+        <TextView
+            android:id="@+id/lvl6_title"
+            style="@style/main_textView_style"
+            android:layout_marginTop="@dimen/level_margin"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv6" />
+
+        <!-- BACK BUTTON -->
+        <Button
+            android:id="@+id/back_button"
+            style="@style/back_button_style" />
+
+        <!-- ENIGMA -->
+        <TextView
+            android:id="@+id/lvl5_text"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/lvl6_title"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv6_text" />
+
+        <!-- COMBINATION -->
+        <NumberPicker
+            android:id="@+id/picker_1"
+            style="@style/number_picker_style"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="50dp"
+            android:layout_toStartOf="@+id/picker_2"
+            android:theme="@style/number_picker_theme" />
+
+        <NumberPicker
+            android:id="@+id/picker_2"
+            style="@style/number_picker_style"
+            android:layout_centerInParent="true"
+            android:theme="@style/number_picker_theme" />
+
+        <NumberPicker
+            android:id="@+id/picker_3"
+            style="@style/number_picker_style"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:layout_toEndOf="@+id/picker_2"
+            android:theme="@style/number_picker_theme" />
+
+        <!-- BUTTON FOR THE WIN -->
+        <Button
+            android:id="@+id/button_picker"
+            style="@style/main_button_style"
+            android:text="@string/lv6_start" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

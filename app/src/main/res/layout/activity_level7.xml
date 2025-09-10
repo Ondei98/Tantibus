@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".levels.Level7_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- TITLE -->
+        <TextView
+            android:id="@+id/lvl7_title"
+            style="@style/main_textView_style"
+            android:layout_marginTop="@dimen/level_margin"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv7" />
+
+        <!-- BACK BUTTON -->
+        <Button
+            android:id="@+id/back_button"
+            style="@style/back_button_style" />
+
+        <!-- ENIGMA -->
+        <TextView
+            android:id="@+id/lvl5_text"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/lvl7_title"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/lv7_text" />
+
+        <!-- DICE -->
+        <ImageView
+            android:id="@+id/dice_icon"
+            android:layout_width="@dimen/dice_icon"
+            android:layout_height="@dimen/dice_icon"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center" />
+
+        <!-- FALSE BUTTON FOR THE WIN -->
+        <Button
+            android:id="@+id/button_shuffle"
+            style="@style/main_button_style"
+            android:text="@string/lv7_start" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

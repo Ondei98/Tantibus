@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="main_button_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/button_bottom_margin</item>
+        <item name="android:layout_marginLeft">@dimen/button_hor_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_hor_margin</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:padding">@dimen/padding_measure</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor"> @drawable/button_text_color</item>
+        <item name="android:fontFamily">@font/special_elite</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="menu_button_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/button_bottom_margin</item>
+        <item name="android:layout_marginLeft">@dimen/button_hor_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_hor_margin</item>
+        <item name="android:padding">@dimen/padding_measure</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor"> @drawable/button_text_color</item>
+        <item name="android:fontFamily">@font/special_elite</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="level_menu_button_style">
+        <item name="android:layout_marginBottom">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginLeft">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_lvl_margin</item>
+        <item name="android:padding">@dimen/padding_measure</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor"> @drawable/button_text_color</item>
+        <item name="android:fontFamily">@font/special_elite</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="back_button_style">
+        <item name="android:layout_width">@dimen/arrow_icon</item>
+        <item name="android:layout_height">@dimen/arrow_icon</item>
+        <item name="android:padding">@dimen/padding_measure</item>
+        <item name="android:background">@drawable/arrow</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginTop">@dimen/arrow_margin</item>
+        <item name="android:layout_marginEnd">@dimen/arrow_margin</item>
+    </style>
+
+    <style name="main_textView_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+    </style>
+
+    <style name="dark_textView_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/trade_winds</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+    </style>
+
+    <style name="Splash_textView_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:fontFamily">@font/trade_winds</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+    </style>
+
+    <style name="main_EditText_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+    </style>
+
+
+    <style name="puzzle_button_style">
+        <item name="android:layout_width">@dimen/button_puzzle</item>
+        <item name="android:layout_height">@dimen/button_puzzle</item>
+        <item name="android:layout_marginBottom">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginLeft">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_lvl_margin</item>
+        <item name="android:textColor"> @drawable/button_text_color</item>
+        <item name="android:fontFamily">@font/special_elite</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:onClick">buttonClick</item>
+    </style>
+
+    <style name="tris_button_style">
+        <item name="android:layout_width">@dimen/button_puzzle</item>
+        <item name="android:layout_height">@dimen/button_puzzle</item>
+        <item name="android:layout_marginBottom">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginLeft">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_lvl_margin</item>
+        <item name="android:textColor"> @drawable/button_text_color</item>
+        <item name="android:fontFamily">@font/special_elite</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:onClick">trisClick</item>
+    </style>
+
+    <style name="empty_button_style">
+        <item name="android:layout_width">@dimen/button_puzzle</item>
+        <item name="android:layout_height">@dimen/button_puzzle</item>
+        <item name="android:layout_marginBottom">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginLeft">@dimen/button_lvl_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_lvl_margin</item>
+        <item name="android:textColor"> @drawable/button_text_color</item>
+        <item name="android:fontFamily">@font/special_elite</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:onClick">buttonClick</item>
+    </style>
+
+    <style name="number_picker_theme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@drawable/button_text_color</item>
+        <item name="android:fontFamily">@font/special_elite</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="number_picker_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+
+    </style>
+
+</resources>

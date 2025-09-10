@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MY FONTS -->
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/calligraffitti</item>
+        <item>@font/special_elite</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- CROWN BUTTON -->
+        <Button
+            android:id="@+id/crown_image"
+            android:layout_width="@dimen/crown_icon"
+            android:layout_height="@dimen/crown_icon"
+            android:layout_above="@+id/main_title"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/crown"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/main_title"
+            style="@style/main_textView_style"
+            android:layout_above="@+id/levels_tab"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/First_chapter" />
+
+    <!-- TABLE OF THE 9 LEVELS -->
+    <TableLayout
+        android:id="@+id/levels_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:stretchColumns="0,1,2">
+
+        <!-- LEVEL 1 TO 3 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/lv1" android:id="@+id/button_level1"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+
+            <Button
+                android:text="@string/lv2" android:id="@+id/button_level2"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+
+            <Button
+                android:text="@string/lv3" android:id="@+id/button_level3"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+        </TableRow>
+
+        <!-- LEVEL 4 TO 6 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/lv4" android:id="@+id/button_level4"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+
+            <Button
+                android:text="@string/lv5" android:id="@+id/button_level5"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+
+            <Button
+                android:text="@string/lv6" android:id="@+id/button_level6"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+
+        </TableRow>
+
+        <!-- LEVEL 7 TO 9 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:text="@string/lv7" android:id="@+id/button_level7"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+
+            <Button
+                android:text="@string/lv8" android:id="@+id/button_level8"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+
+            <Button
+                android:text="@string/lv9" android:id="@+id/button_level9"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/level_menu_button_style"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+        <TextView
+            android:id="@+id/menta"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/levels_tab"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/calligraffitti"
+            android:text="@string/welcome_back" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

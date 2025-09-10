@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- LOGIN TITLE -->
+        <TextView
+            android:id="@+id/LoginTitle"
+            style="@style/main_textView_style"
+            android:layout_marginTop="@dimen/level_margin"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/LoginTitle" />
+
+        <!-- LOGIN USER -->
+        <TextView
+            android:id="@+id/User_Login"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/LoginTitle"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/User_Login" />
+        <EditText
+            android:id="@+id/User_Login_text"
+            style="@style/main_EditText_style"
+            android:layout_below="@+id/User_Login"
+            android:layout_marginTop="20dp" />
+
+        <!-- LOGIN PASSWORD -->
+        <TextView
+            android:id="@+id/Password_Login"
+            style="@style/main_textView_style"
+            android:layout_below="@+id/User_Login_text"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/trade_winds"
+            android:text="@string/Password_Login" />
+        <EditText
+            android:id="@+id/Password_Login_text"
+            style="@style/main_EditText_style"
+            android:layout_below="@+id/Password_Login"
+            android:layout_marginTop="20dp" />
+
+        <!-- LOGIN CHECK -->
+        <Button
+            android:id="@+id/login_button"
+            style="@style/main_button_style"
+            android:text="@string/Check_Login" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
