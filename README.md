@@ -48,7 +48,7 @@ Happy puzzling! 🧩
 Here some screenshots of the emualtor:
 <div align="center">
 <img src="SCREENSHOTS/LOGIN.png" alt="Login Activity" width="300"/>
-<img src="SCREENSHOTS/LV5.png" alt="Level 5 Activity" width="300"/>
+<img src="SCREENSHOTS/LV6.png" alt="Level 6 Activity" width="300"/>
 <img src="SCREENSHOTS/CREDITS.png" alt="Credits Activity" width="300"/>
 </div>
 
