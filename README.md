@@ -17,11 +17,13 @@ Secrets & Easter Eggs: Some levels are filled with hidden clues and easter eggs 
 Multi-User Support: A built-in database allows multiple users to have their own profile and track their progress. Just log in and start your journey!
 
 Installation & How to Play
-Download and Install: Get the .apk file from the repository and install it on your Android device.
 
-Login: On the first launch, you'll be prompted to log in. Create a new user or log in with an existing one.
 
-Start the Journey: Begin with Level 1 and use your creativity and observation skills to solve the puzzles. Remember to explore your surroundings and use your phone in unconventional ways!
+1. Download and Install: Get the .apk file from the repository and install it on your Android device.
+
+2. Login: On the first launch, you'll be prompted to log in. Create a new user or log in with an existing one.
+
+3. Start the Journey: Begin with Level 1 and use your creativity and observation skills to solve the puzzles. Remember to explore your surroundings and use your phone in unconventional ways!
 
 !!! Important Notes & Known Issues !!!
 
