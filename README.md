@@ -28,6 +28,7 @@ Start the Journey: Begin with Level 1 and use your creativity and observation sk
 Due to the age of the application (2021), some parts of the code use deprecated instructions (such as compass and accelerometer integration). While the game is fully functional, this may affect future compatibility with newer Android versions.
 
 Google Maps API Key (Level 5) 🌍
+
 Level 5 requires a Google Maps API key to function correctly. This key is not included in the application. To play this level, you must:
 Create a Google Maps API key via the Google Cloud Console.
 Follow the instructions in the README-API.md file (or a similar document) to add the key to the app's configuration files before building.
