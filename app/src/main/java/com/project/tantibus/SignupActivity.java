@@ -8,8 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-// TODO import com.project.tantibus.levels.Level1_Activity;
-
 public class SignupActivity extends AppCompatActivity {
 
     EditText username, password;

@@ -36,7 +36,6 @@ public class LoginActivity extends AppCompatActivity {
                     //ALL CHECKS ARE GOOD AND UPDATE GLOBAL CLASS
                     GlobalClass.GlobalUser = user;
                     GlobalClass.GlobalLevel = DB.checkLevel(GlobalClass.GlobalUser);
-                    // TODO add the final journey case
                     Toast.makeText(LoginActivity.this, getResources().getString(R.string.Continue) + ", " + GlobalClass.GlobalUser + "!", Toast.LENGTH_SHORT).show();
                     final Intent LevelActivity = new Intent(LoginActivity.this, LevelActivity.class);
                     startActivity(LevelActivity);
