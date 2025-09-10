@@ -44,3 +44,12 @@ This game was developed by Emanuele Ondei as part of an academic project for the
 We hope you enjoy the challenge!
 
 Happy puzzling! 🧩
+
+Here some screenshots of the emualtor:
+<div align="center">
+<img src="SCREENSHOTS/LOGIN.png" alt="Login Activity" width="300"/>
+<img src="SCREENSHOTS/LV5.png" alt="Level 5 Activity" width="300"/>
+<img src="SCREENSHOTS/CREDITS.png" alt="Credits Activity" width="300"/>
+</div>
+
+
