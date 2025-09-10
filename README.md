@@ -36,6 +36,7 @@ This step is essential to ensure that the map feature in Level 5 works.
 In the manifest is present a FAKE API key so it won't work!
 
 Credits
+
 This game was developed by Emanuele Ondei as part of an academic project for the Mobile Programming course in the Master's Degree in Electronic Engineering at the Università degli Studi di Brescia.
 
 We hope you enjoy the challenge!
